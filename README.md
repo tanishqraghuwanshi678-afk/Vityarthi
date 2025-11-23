@@ -1,32 +1,43 @@
-#  Campus Lost & Found System
+#  Lost & Found System:
 
-A beginner-friendly web application built using Python Flask that helps students report and find lost items on campus.
+A simple and beginner-friendly Lost & Found System made using only basic Python.
+This program runs in the terminal and allows users to add and view lost/found items without using any external modules or libraries.
 
-#  Project Overview
+#  Features:
+Add lost or found item details:
 
-The Campus Lost & Found System allows users to:
-
-- Submit details about lost or found items.
-- View all items reported by others.
-- Contact the owner/finder using the details provided.
-- This project is perfect for first-year students as it uses very simple code, no database, and is fully written in one file.
-
-#  Features
-
-- Add item name, location, description, and contact.
+- Store item name, location, and contact number.
 - View all submitted items.
-- Simple UI (HTML + CSS).
-- No complex setup — runs locally.
-- Beginner-friendly Flask code.
+- Simple text-based menu.
+- No installation required — uses only core Python.
+- Perfect for first-year students.
 
-#  Technologies Used
+#  Technologies Used:
 
-- Python 3
-- Flask (Web Framework)
-- HTML/CSS (for UI)
+Python.
 
-#  How It Works
+#  How to Run:
 
-- When a user submits a form, the item is saved in a simple in-memory list.
-- All items are displayed on the same page.
-- The data resets when the server is restarted (because no database is used).
+- Make sure Python is installed.
+- Save the file as lost_found.py
+- Run the program from terminal.
+
+#  How It Works:
+
+- The program displays a menu with three options:
+1. Add Item
+2. View Items
+3. Exit
+- All items are stored inside a simple Python list (lost_items):
+- Each item contains:
+1. Item name.
+2. Place lost/found.
+3. Contact number.
+- Data resets when the program is closed (no database used).
+
+#  Ideal For:
+
+- College mini-projects.
+- First-year Python learners.
+- Demonstrating basic data structures and user input handling.
+- Simple console-based applications.
