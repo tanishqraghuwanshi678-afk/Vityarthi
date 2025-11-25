@@ -5,6 +5,7 @@ This program runs in the terminal and allows users to add and view lost/found it
 
 #  Features:
 Add lost or found item details:
+Users can report items they have lost or found, view a list of items, and filter them based on categories or search terms:
 
 - Store item name, location, and contact number.
 - View all submitted items.
@@ -41,3 +42,8 @@ Python.
 - First-year Python learners.
 - Demonstrating basic data structures and user input handling.
 - Simple console-based applications.
+
+#  Future Enhancements:
+
+- Item Matching: Automatically match found items with reported lost items.
+- User Notifications: Notify users when their item status changes.
