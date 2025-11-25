@@ -63,8 +63,7 @@ Prompts the user for:
 -Item name.
 -Place where lost/found.
 -Contact information.
-
-Then stores the data inside a list of dictionaries.
+-Then stores the data inside a list of dictionaries.
 
 2. View All Items
 
@@ -72,7 +71,7 @@ Then stores the data inside a list of dictionaries.
 
 3. Exit
 
-Safely terminates the program.
+-Safely terminates the program.
 
 #  Installation:
 
